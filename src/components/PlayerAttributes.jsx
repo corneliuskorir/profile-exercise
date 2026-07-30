@@ -8,7 +8,7 @@ function PlayerAttributes({ attributes }) {
       {attributes.map((attribute, index) => (
         <PlayerAttribute key={index} title={attribute.title}>
           {attribute.stats.map((stat, index) => (
-            <Attribute title={stat.title}>
+            <Attribute key={index} title={stat.title}>
               {!(stat.stat.length > 1) ? (
                 <p>{stat.stat[0]}</p>
               ) : (

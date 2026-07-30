@@ -5,7 +5,7 @@ import styles from "./Player.module.css";
 
 function Player({ playerData }) {
   return (
-    <div key="player" className={styles.profile}>
+    <div key={playerData.id} className={styles.profile}>
       <PlayerProfile player={playerData} />
       <PlayerAttributes attributes={playerData.attributes} />
     </div>
