@@ -14,7 +14,7 @@
 .profileTitle {
   position: absolute;
   bottom: 0;
-  padding-left: 1rem;
+  padding: 0px 30px;
   color: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 p.playerName {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   margin: 0 !important;
 }
