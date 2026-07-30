@@ -8,7 +8,7 @@ function App() {
   return (
     <div key="app" className={styles.app}>
       {data.map((player) => (
-        <Player key={player.id} />
+        <Player key={player.id} playerData={player} />
       ))}
     </div>
   );

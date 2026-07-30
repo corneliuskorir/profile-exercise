@@ -3,11 +3,11 @@ import PlayerProfile from "./PlayerProfile";
 
 import styles from "./Player.module.css";
 
-function Player() {
+function Player({ playerData }) {
   return (
     <div key="player" className={styles.profile}>
       <PlayerProfile />
-      <PlayerAttributes />
+      <PlayerAttributes attributes={playerData.attributes} />
     </div>
   );
 }
