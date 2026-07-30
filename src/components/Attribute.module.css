@@ -1,11 +1,20 @@
+.attribute {
+  margin: 0 !important;
+}
+
 .attribute h3 {
   font-weight: 600;
   color: black;
-  margin: 10px 0px;
+  margin: 10px 0 !important;
 }
 
 .attribute p {
   font-weight: 400;
+  margin: 0 !important;
+}
+
+.attribute ul {
+  margin: 0 !important;
 }
 
 .attribute strong {

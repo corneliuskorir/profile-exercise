@@ -1,6 +1,7 @@
 .playerAttribute {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 .playerAttribute h2 {
@@ -20,14 +21,4 @@
   width: 100%;
   background-color: #e88f40;
   position: absolute;
-}
-
-.playerAttribute h3 {
-  margin: 20px 0 !important;
-  font-size: 0.98rem;
-}
-
-.playerAttribute p {
-  margin: 10px 0 !important;
-  font-size: 0.98rem;
 }
