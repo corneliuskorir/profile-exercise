@@ -4,7 +4,7 @@ import Attribute from "./Attribute";
 
 function PlayerAttributes() {
   return (
-    <div className={styles.playerAttributes}>
+    <div key="playerAttributes" className={styles.playerAttributes}>
       <PlayerAttribute title="desicive moves specialist">
         <Attribute title="Strength">
           <p>Strategic Vision & Quick Decision-Making & 3-Point Shooting</p>

@@ -2,12 +2,12 @@ import styles from "./About.module.css";
 
 function About({ name, about, tag }) {
   return (
-    <div className={styles.about}>
-      <div>
+    <div key="about" className={styles.about}>
+      <div key="aboutsection">
         <h2>About {name}</h2>
         <p>{about}</p>
       </div>
-      <div className={styles.tag}>
+      <div key="aboutTag" className={styles.tag}>
         <p>{`"${tag}"`}</p>
       </div>
     </div>

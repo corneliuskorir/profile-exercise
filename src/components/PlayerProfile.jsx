@@ -5,7 +5,7 @@ import About from "./About";
 
 function PlayerProfile() {
   return (
-    <div className={styles.playerProfile}>
+    <div key="playerProfile" className={styles.playerProfile}>
       <Profile image={image} name="Ken Wachira" role="Basketball Coach" />
       <About
         name="Ken"

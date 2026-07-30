@@ -3,7 +3,7 @@ import styles from "./PlayerAttribute.module.css";
 
 function PlayerAttribute({ title, children }) {
   return (
-    <div className={styles.playerAttribute}>
+    <div key={title} className={styles.playerAttribute}>
       <h2>{title.toUpperCase()}</h2>
       {children}
     </div>

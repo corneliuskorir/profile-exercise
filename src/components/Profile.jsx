@@ -2,12 +2,14 @@ import styles from "./Profile.module.css";
 
 function Profile({ image, name, role }) {
   return (
-    <div className={styles.profile}>
+    <div key="profile" className={styles.profile}>
       <img src={image} alt="player image" />
 
-      <div className={styles.profileTitle}>
-        {name.split(" ").map((n) => (
-          <p className={styles.playerName}>{n}</p>
+      <div key="profileTitle" className={styles.profileTitle}>
+        {name.split(" ").map((n, index) => (
+          <p key={index} className={styles.playerName}>
+            {n}
+          </p>
         ))}
 
         <p>{role.toUpperCase()}</p>

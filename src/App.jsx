@@ -7,7 +7,7 @@ import PlayerProfile from "./components/PlayerProfile";
 
 function App() {
   return (
-    <div className={styles.profile}>
+    <div key="app" className={styles.profile}>
       <PlayerProfile />
       <PlayerAttributes />
     </div>
