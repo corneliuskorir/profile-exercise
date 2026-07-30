@@ -1,6 +1,7 @@
 .profile {
   position: relative;
   overflow: hidden;
+  flex: 2;
 }
 
 .profile img {
