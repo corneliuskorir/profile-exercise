@@ -1,5 +1,12 @@
-function Attribute({ title, content }) {
-  return <div></div>;
+import styles from "./Attribute.module.css";
+
+function Attribute({ title, children }) {
+  return (
+    <div className={styles.attribute}>
+      <h3>{title}</h3>
+      {children}
+    </div>
+  );
 }
 
 export default Attribute;

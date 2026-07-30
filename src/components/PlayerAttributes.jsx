@@ -1,13 +1,13 @@
 import { Children } from "react";
 import styles from "./PlayerAttributes.module.css";
 
-function PlayerAttribtes({ children }) {
+function PlayerAttribute({ title, children }) {
   return (
     <div className={styles.playerAttribute}>
-      <h2>Desisive Moves Specialist</h2>
+      <h2>{title.toUpperCase()}</h2>
       {children}
     </div>
   );
 }
 
-export default PlayerAttribtes;
+export default PlayerAttribute;

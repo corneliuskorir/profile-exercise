@@ -1,6 +1,8 @@
 .playerAttribute {
   margin: 10px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .playerAttribute h2 {
@@ -8,8 +10,7 @@
   color: black;
   font-size: 1.3rem;
   position: relative;
-  display: inline;
-  margin-bottom: 10px;
+  width: max-content;
 }
 
 .playerAttribute h2::after {
