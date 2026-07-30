@@ -1,25 +1,14 @@
 import { useState } from "react";
 
-import "./App.css";
-import PlayerAttribute from "./components/PlayerAttributes";
-import Attribute from "./components/Attribute";
+import styles from "./App.module.css";
+
+import PlayerAttributes from "./components/PlayerAttributes";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <PlayerAttribute title="desicive moves specialist">
-        <Attribute title="Strength">
-          <p>Strategic Vision & Quick Decision-Making & 3-Point Shooting</p>
-        </Attribute>
-        <Attribute title="Expertise">
-          <p>
-            Reading the game, making decisive moves, excellent 3-point shooting.
-          </p>
-        </Attribute>
-      </PlayerAttribute>
-    </>
+    <div className={styles.profile}>
+      <PlayerAttributes />
+    </div>
   );
 }
 
