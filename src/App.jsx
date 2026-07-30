@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 import styles from "./App.module.css";
-
-import PlayerAttributes from "./components/PlayerAttributes";
-import PlayerProfile from "./components/PlayerProfile";
+import Player from "./components/Player";
+import data from "./data/playerData";
 
 function App() {
   return (
-    <div key="app" className={styles.profile}>
-      <PlayerProfile />
-      <PlayerAttributes />
+    <div key="app" className={styles.app}>
+      {data.map((player) => (
+        <Player key={player.id} />
+      ))}
     </div>
   );
 }

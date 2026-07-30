@@ -62,4 +62,122 @@ const playerData = [
       },
     ],
   },
+  {
+    id: 2,
+    name: "Albert Odero",
+    role: "Basketball Coach",
+    about: `Get to know Albert Odero, a basketball virtuoso in shooting accuracy and flawless ball handling. His coaching aims to perfect shooting techniques and elevate ball control skills. Follow for exclusive tutorials and drills to boost your game.`,
+    tag: "Precision in every shot, mastery in every move.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6Ypj81cW3FKS3XTQJXnWumYD_by0y8ku5trYoImYJ2xH82sH4Si0Dm0&s=10",
+    attributes: [
+      {
+        title: "Ball Control Maestro",
+        stats: [
+          {
+            title: "Strength",
+            stat: ["Shooting Accuracy & Ball Handling"],
+          },
+          {
+            title: "Expertise",
+            stat: ["Precise shooting, impeccable ball control"],
+          },
+        ],
+      },
+      {
+        title: "Precision Training Insights",
+        stats: [
+          {
+            title: "Coaching Focus",
+            stat: ["Fine-tuning shooting techniques, mastering ball handling"],
+          },
+          {
+            title: "Main focus",
+            stat: ["Shooting drills", "Ball control tutorials"],
+          },
+          {
+            title: "Tactics",
+            stat: [
+              "Ball Handling Mastery: Achieve seamless control through precise drills and technique.",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Training positions",
+        stats: [
+          {
+            title: "Main focus",
+            stat: ["Shooting guards", "Power forwards", "Ball handlers"],
+          },
+          {
+            title: "Also",
+            stat: ["Trains all basketball Positions"],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Ariel Okal",
+    role: "Basketball Coach",
+    about: `Introducing Arial Okal, a basketball dynamo with unmatched speed and agility on the court. His coaching style revolves around refining footwork and enhancing agility. Follow for tips and insights on boosting your speed and agility game.`,
+    tag: "Speed defines the pace, agility conquers the game.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT12xXxBJQrhPesuo9Iu80RnuT9S3aLNKQ66OxOzUYANToHme-KqR_R1aox&s=10",
+    attributes: [
+      {
+        title: "Speed Dynamo",
+        stats: [
+          {
+            title: "Strength",
+            stat: ["Speed & Agile Court Moves"],
+          },
+          {
+            title: "Expertise",
+            stat: ["Lightning-fast speed, agile maneuvers"],
+          },
+        ],
+      },
+      {
+        title: "Agile Movement Expert",
+        stats: [
+          {
+            title: "Coaching Focus",
+            stat: ["Enhancing footwork, boosting agility"],
+          },
+          {
+            title: "Main focus",
+            stat: ["Speed enhancement tips", "Agility training insights"],
+          },
+          {
+            title: "Tactics",
+            stat: [
+              "Footwork Finesse: Elevate your game by mastering swift and precise foot movements.",
+            ],
+          },
+        ],
+      },
+      {
+        title: "Training positions",
+        stats: [
+          {
+            title: "Main focus",
+            stat: [
+              "Guards",
+              "Fast-paced offense players",
+              "Players focusing on agility",
+            ],
+          },
+          {
+            title: "Also",
+            stat: ["Trains all basketball Positions"],
+          },
+        ],
+      },
+    ],
+  },
 ];
+
+export default playerData;
