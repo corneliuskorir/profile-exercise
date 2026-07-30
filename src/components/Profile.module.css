@@ -1,0 +1,28 @@
+.profile {
+  position: relative;
+  overflow: hidden;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
+.profileTitle {
+  position: absolute;
+  bottom: 0;
+  padding-left: 1rem;
+  color: white;
+}
+
+.profileTitle p {
+  font-weight: 300;
+}
+
+p.playerName {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 !important;
+}

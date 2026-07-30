@@ -2,4 +2,6 @@
   position: relative;
   flex: 2;
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
