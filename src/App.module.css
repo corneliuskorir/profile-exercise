@@ -9,11 +9,7 @@
 
 @media (min-width: 768px) {
   .app {
-    display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
-    justify-content: flex-start;
-    align-items: stretch;
     padding: 10px 10px;
   }
 }

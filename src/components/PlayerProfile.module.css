@@ -1,6 +1,6 @@
 .playerProfile {
   position: relative;
-  flex: 2;
+  flex: 3;
   background-color: black;
   display: flex;
   flex-direction: column;
