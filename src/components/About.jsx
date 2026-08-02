@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import Contact from "./Contact";
 
 function About({ name, about, tag }) {
   return (
@@ -7,6 +8,7 @@ function About({ name, about, tag }) {
         <h2>About {name}</h2>
         <p>{about}</p>
       </div>
+      <Contact />
       <div key="aboutTag" className={styles.tag}>
         <p>{`"${tag}"`}</p>
       </div>

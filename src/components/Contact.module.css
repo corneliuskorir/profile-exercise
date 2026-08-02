@@ -1,0 +1,18 @@
+.contact {
+  margin-top: 10px;
+}
+
+.contact button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  background: transparent;
+  border: 2px solid #e88f40;
+  color: #e88f40;
+  border-radius: 50px;
+}
+
+.contact button:hover {
+  background-color: #e88f40;
+  color: white;
+  cursor: pointer;
+}
