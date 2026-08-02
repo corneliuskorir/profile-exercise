@@ -1,6 +1,14 @@
 .profile {
   display: flex;
-  max-width: 600px;
-  min-width: 600px;
+  max-width: 500px;
   border: 2px solid black;
+}
+
+@media (min-width: 768px) {
+  .profile {
+    display: flex;
+    max-width: 600px;
+    min-width: 600px;
+    border: 2px solid black;
+  }
 }
