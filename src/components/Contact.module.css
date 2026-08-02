@@ -1,5 +1,7 @@
 .contact {
   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contact button {
@@ -13,6 +15,16 @@
 
 .contact button:hover {
   background-color: #e88f40;
+  color: white;
+  cursor: pointer;
+}
+
+.contact button.share {
+  border: none;
+  border-radius: 50px;
+}
+.contact button.share:hover {
+  background-color: transparent;
   color: white;
   cursor: pointer;
 }
